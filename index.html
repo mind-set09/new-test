@@ -9,7 +9,7 @@
     <h1>JSON Data</h1>
     <pre id="json-data"></pre>
     <script>
-        fetch('data.json') // Replace with the correct path to your JSON file
+        fetch('logging.json') // Replace with the correct path to your JSON file
             .then(response => response.json())
             .then(data => {
                 const jsonData = JSON.stringify(data, null, 2);
